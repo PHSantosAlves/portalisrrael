@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset="UTF -8" />
+<title> Formulário de Login e Registro com html5 e CSS3 </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="style.css"/>
+ <style>
+   div {
+background-color: #fa9146;
+width: 500px;
+height: 520px; 
+border: 3px solid black;
+margin: 12px
+padding 2px ;
+}
+
+ j{
+ background-image: url("diamante.png");
+ width: 200px;
+ }
+ kijo{
+ border: 1px solid #a4c9de ;
+ border-radius: 4px ;
+ padding: 5px ;
+ background-color: #d3e9f2 ;
+ }
+
+h4{
+background-color: #678c9c;
+width: 500px;
+height: 320px; 
+border: 3px solid black;
+margin: 12px
+padding 2px;
+}
+</style>
+ <div class="container" >
+  <a class="links" id="paracadastro"></a>
+  <a class="links" id="paralogin"></a>
+<div class="content">
+ </head>
+<body>
+
+  
+  <!-- Formulário de Login -->
+  <div id="login">
+   <form method="post" action=" ">
+   
+   <h1 style="background-color: white;"><center> Login </center></h1>
+             <p>
+	    <label for="nome_login"><kijo>Seu nome</kijo></label>
+		<input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex.atividadesentregues@hotmail.com "/>
+		</p>
+		<p>
+		 <label for="email_login"><kijo>Seu e-mail</kijo></label>
+		 <input id="email_login" name="email_login" required="required" type="password" placeholder="ex.senha"/>
+		 </p>
+		 <p>
+		  <input type="checkbox" name="manterlogado" id="manterlogado" value=" "/>
+		          <label for="manterlogado">Manter-me logado</label>
+		 </p>
+		 <p>
+		 <input type="submit" valu="logar" /> 
+		 </p>
+	<p class="link">
+	     Ainda não possui conta?
+		 <br>
+		 </br>
+		  <h4 style="background-color: #678c9c; margin-right: 80px;" >
+		 <a href="#paracadastro>Cadastrar-se" </a>
+		 </p>
+     </form>
+	 </div>
+	 <!-- Formulário de Cadastro -->
+	<br>
+	 <div id="cadastro" style="float:right">
+	 <form method="post" action=" ">
+	 <h1 style="background-color: white;"><center>Cadastro</center></h1> 
+	 
+	 <p>
+	  <label for="nome_cad"><kijo>Seu nome</kijo></label>
+	  <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="none " />
+	  </p>
+	  
+	  <p>
+	  <label for="email_cad"><kijo>Seu e-mail</kijo></label>
+	  <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com " />
+	  </p>
+	  
+	  <p>
+	  <label for="senha_cad"><kijo>Seu e-mail</kijo></label>
+	  <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234 " />
+	  </p>
+	  
+	  <p>
+	    <input type="submit" value="cadastrar"/>
+      </p>
+	  
+	  <p class="link">
+	  <kijo>Já tem conta?
+	  <a href="#paralogin"><kijo> Ir para login</kijo> </a>
+	  </p>
+	  </kijo>
+	  
+	  
+	  </form>
+	  </div>
+	  </div>
+	  </div>
+	  </body>
+	  </html>
+	  
