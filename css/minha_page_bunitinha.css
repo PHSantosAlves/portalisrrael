@@ -19,7 +19,7 @@
     display: flex;              /* display é para mexer nas coisa de dentro */
     justify-content: space-around;    /* jc */
     align-items: center;        /* ai */
-    flex-wrap: wrap;
+    flex-wrap: wrap;            /* é para fazer as parada se reorganizar sozinha */
 }
 
 #navbar a{
@@ -28,7 +28,9 @@
 }
 
 #corpinhu{
-
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cabecalho{    
@@ -84,7 +86,9 @@
 }
 
 .titulo{
-
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .artigos{
@@ -92,11 +96,16 @@
 }
 
 .noticia-card{
-
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
 
 .noticia-img{
-
+    margin-bottom: 30px;
 }
 
 .noticia-texto{
