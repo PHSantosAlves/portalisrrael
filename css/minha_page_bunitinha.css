@@ -14,7 +14,17 @@
 }
 
 #navbar{
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
+    min-height: 62px;
+    display: flex;              /* display é para mexer nas coisa de dentro */
+    justify-content: space-around;    /* jc */
+    align-items: center;        /* ai */
+    flex-wrap: wrap;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: azure;
 }
 
 #corpinhu{
@@ -23,7 +33,7 @@
 
 .cabecalho{    
     height: 80px;
-    display: flex;
+    display: flex;              /* display é para mexer nas coisa de dentro */
     justify-content: center;    /* jc */
     align-items: center;        /* ai */
 }
@@ -45,7 +55,7 @@
 }
 
 .logo_top img{
-    position: absolute;
+    position: absolute; /* é para mexer em mim mesmo */
     filter: invert(0.8);
     width: 120px;
     margin-left: 30px;
@@ -53,7 +63,20 @@
 }
 
 .botaozinho{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    min-width: 190px;
+    text-align: center;
+    transition: 0.55s;
+    border-radius: 10px;
+    max-height: 62px;
+    display: block;    
+}
 
+.botaozinho:hover{
+    background-color: rgb(176, 218, 235);
+    color: black;
+    font-weight: 900;
 }
 
 .news{
